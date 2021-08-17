@@ -1,0 +1,17 @@
+{% extends 'StatusApp/base.html' %}
+{% load static %}
+
+  
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'StatusApp/styles.css' %}">
+
+<p class="note-desc">This website uses the Logistic Regression machine learning algorithm to predict the job placement chances of a
+   student. Check it out by clicking the button below to predict your status</p>
+
+   <a class="check-status" href="{% url "studentcreate" %}">Predict your Placement status</a>
+   
+
+   
+{% endblock %}
+

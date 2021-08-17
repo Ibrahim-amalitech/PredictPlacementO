@@ -1,0 +1,39 @@
+{% extends 'StatusApp/base.html' %}
+{% load static %}
+
+
+
+
+{% block content %}
+
+ <link rel="stylesheet" href="{% static 'StatusApp/list.css' %}">
+
+
+<h1>Student Placement Status Information</h1>
+
+<table>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Secondary School Score</th>
+    <th>Higher Secondary School Score</th>
+    <th>Degree Score</th>
+    <th>E-Test Score</th>
+    <th>MBA Score</th>
+    <th>Prediction</th>
+  </tr>
+  {% for student in placement_list %}
+  <tr>
+      <td>{{ student.first_name }}</td>
+      <td>{{ student.last_name }}</td>
+      <td>{{ student.sec_score }}</td>
+      <td>{{ student.highSec_score }}</td>
+      <td>{{ student.degree_score }}</td>
+      <td>{{ student.etest_score }}</td>
+      <td>{{ student.mba_score }}</td>
+      <td>{{ student.Placement_status }}</td>
+  </tr>
+  {% endfor %}
+ 
+</table>
+{% endblock %}

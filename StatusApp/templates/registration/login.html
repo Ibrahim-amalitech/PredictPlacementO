@@ -1,0 +1,19 @@
+{% extends "StatusApp/base.html" %}
+
+{% block content %}
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'StatusApp/login.css' %}">
+<a class="signup-button" href="{% url "signup" %}">New User? Click me to create account</a>
+<div class="login-form">
+  <h2>Please login</h2>
+    <form class="login" method="post">
+        <div>
+          {% csrf_token %}
+            {% comment %} Add your form rendering tags below {% endcomment %}
+            {{form.as_p}}
+          <input type="submit" value="Login"/>
+        </div>
+    </form>
+  </div>
+  {% endblock %}

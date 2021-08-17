@@ -1,0 +1,33 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'StatusApp/base.css' %}">
+
+   <div class="header">
+    <img src="{% static 'StatusApp/Capture.png' %}" >
+   {% if user.username %}
+	  {% comment %} Add your logout link below {% endcomment %}
+    <ul>
+      <li><a href="{% url "home" %}">Go Home</a></li>
+      <li><a class="logout-button" href="{% url "logout" %}">Log Out</a></li>
+      <li> <a class="signup-button" href="{% url "signup" %}">Sign Up</a> </li>
+    </ul>
+    
+    
+    
+  {% endif %}
+  <div class="header-content">
+    <h1 class="header-title">Job Placement Prediction With Machine Learning</h1>
+    {% if user.username %}
+    <h4 class="header-greet">Welcome {{ user.username }}!</h4>
+    {% endif %}
+  </div>
+</div>
+  {% block content %}
+  {% endblock %}
+
+
+
+
+
+
+

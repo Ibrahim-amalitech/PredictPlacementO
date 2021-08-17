@@ -1,0 +1,17 @@
+{% extends "StatusApp/base.html" %}
+
+{% load static %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'StatusApp/signup.css' %}">
+
+<div class="signup-form">
+<h2>Sign up</h2>
+<form class="signup" method="post">
+   <div>
+   {% csrf_token %}
+   {{ form.as_p }}
+   <input type="submit" value="Signup"/>
+</div>
+</form>
+</div>
+{% endblock %}
