@@ -166,9 +166,7 @@ python-dateutil
 python-jsonrpc-server 
 python-language-server 
 pytz 
-PyWavelets 
-pywin32
-pywin32-ctypes 
+PyWavelets  
 pywinpty 
 PyYAML==5.4.1
 pyzmq==20.0.0
