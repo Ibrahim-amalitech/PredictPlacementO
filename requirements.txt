@@ -184,7 +184,6 @@ seaborn
 Send2Trash 
 simplegeneric==0.8.1
 singledispatch 
-sip==4.19.13
 six 
 sniffio 
 snowballstemmer 
