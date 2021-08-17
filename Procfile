@@ -1,0 +1,1 @@
+web: gunicorn PredictPlacement.wsgi --log-file -
