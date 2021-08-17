@@ -1,6 +1,6 @@
 alabaster  
 anaconda-client  
-anaconda-project  
+anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1610472525955/work 
 anyio 
 appdirs==1.4.4
 argh==0.26.2
