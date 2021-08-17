@@ -30,7 +30,7 @@ cffi
 chardet 
 click 
 cloudpickle 
-clyent==1.2.2
+clyent
 colorama 
 comtypes==1.1.9
 contextlib2==0.6.0.post1
