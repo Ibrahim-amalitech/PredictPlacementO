@@ -177,7 +177,6 @@ regex
 requests 
 rope 
 Rtree 
-ruamel-yaml-conda 
 scikit-image==0.18.1
 scikit-learn 
 scipy 
