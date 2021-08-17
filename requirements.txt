@@ -167,7 +167,6 @@ python-jsonrpc-server
 python-language-server 
 pytz 
 PyWavelets  
-pywinpty 
 PyYAML==5.4.1
 pyzmq==20.0.0
 QDarkStyle==2.8.1
