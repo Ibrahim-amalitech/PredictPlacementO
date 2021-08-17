@@ -154,8 +154,7 @@ Pygments
 pylint 
 pyls-black 
 pyls-spyder 
-PyNaCl 
-pyodbc 
+PyNaCl  
 pyOpenSSL 
 pyparsing 
 pyreadline==2.1
