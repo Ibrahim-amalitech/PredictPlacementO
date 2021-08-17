@@ -234,7 +234,3 @@ xlrd
 XlsxWriter 
 xlwt==1.3.0
 yapf 
-zict==2.0.0
-zipp 
-zope.event==4.5.0
-zope.interface 
