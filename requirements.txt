@@ -1,4 +1,4 @@
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
+alabaster 
 anaconda-client @ file:///C:/ci/anaconda-client_1607980922477/work
 anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1610472525955/work
 anyio @ file:///C:/ci/anyio_1620153135622/work/dist
