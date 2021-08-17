@@ -99,7 +99,6 @@ MarkupSafe
 matplotlib 
 mccabe==0.6.1
 mistune 
-mkl-fft
 mkl-random 
 mkl-service==2.3.0
 mock 
